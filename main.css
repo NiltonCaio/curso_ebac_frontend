@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.first_content {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+form button {
+    padding: 0 10px;
+}
+
+ul li {
+    display: none;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
