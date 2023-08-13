@@ -11,7 +11,7 @@ $(document).ready(function(){
     })
 
     $('ul').on('click','li', function(){
-        $('p').css('text-decoration', 'line-through');
+        $(this).css('text-decoration', 'line-through');
     })
 
     $('#reset_ul').click('reset', function() {
