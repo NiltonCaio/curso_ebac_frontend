@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 60px;
+    background-color: black;
+    color: #fff;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form_input {
+    max-width: 500px;
+}
+
+.form_input label {
+    font-weight: bold;
+    display: block;
+}
+
+.form_input input {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(215, 225, 234);
+}
+
+button {
+    padding: 5px 20px;
+    max-width: 500px;
+    width: 100%;
+    font-weight: bold;
+    background-color: blueviolet;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(153, 78, 223);
+    transition: 1s;
+}
