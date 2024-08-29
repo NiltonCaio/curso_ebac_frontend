@@ -1,0 +1,96 @@
+@fontePrincipal: Roboto, sans-serif;
+@corDeFundo: #1d1c1c;
+@corDaFonte: aliceblue;
+
+.fonte24 {
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: @fontePrincipal;
+}
+
+body {
+    background-color: @corDeFundo;
+    color: @corDaFonte;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    input {
+        .fonte24();
+        background-color: #fff;
+        border: none;
+        border-bottom: 2px solid #000;
+        padding: 8px;
+    }
+    button {
+        background-color: #009432;
+        color: #fff;
+        .fonte24();
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+    }
+}
+
+
+table {
+    width: 100%;
+    th {
+        border-bottom: 2px solid @corDaFonte;
+        padding: 16px;
+        .fonte24();
+        font-weight: bold;
+    }
+    td {
+        padding: 16px 0;
+        text-align: center;
+        .fonte24();
+        border-bottom: 1px solid @corDaFonte;
+    }
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color: red;
+}
