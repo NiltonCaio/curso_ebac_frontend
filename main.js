@@ -18,7 +18,7 @@ function ClientePF(nome, idade, situacao, patrimonio) {
     this.dizInfoPrivado1 = function() {
         console.log(`Situação: ${this.situacao}`)
     }
-    
+
     this.dizInfoPrivado2 = function() {
         console.log(`Patrimonio: ${this.patrimonio}`)
     }
@@ -36,7 +36,7 @@ function ClientePJ(nome, idade, situacao, patrimonio) {
     this.dizInfoPrivado1 = function() {
         console.log(`Situação: ${this.situacao}`)
     }
-    
+
     this.dizInfoPrivado2 = function() {
         console.log(`Patrimonio: ${this.patrimonio}`)
     }
@@ -44,6 +44,7 @@ function ClientePJ(nome, idade, situacao, patrimonio) {
 
 const clientePF1 = new ClientePF("Jão", 23, "empregadoCLT", 20000)
 const clientePJ1 = new ClientePJ("Carlos", 28, "autonomo", 60000)
+const clientePJ2 = new ClientePJ("Rodolfo", 35, "herdeiro", 90000)
 
 clientePF1.dizInfoBasico()
 clientePF1.vivo()
@@ -54,3 +55,8 @@ clientePJ1.dizInfoBasico()
 clientePJ1.vivo()
 clientePJ1.dizInfoPrivado1()
 clientePJ1.dizInfoPrivado2()
+
+clientePJ2.dizInfoBasico()
+clientePJ2.vivo()
+clientePJ2.dizInfoPrivado1()
+clientePJ2.dizInfoPrivado2()
